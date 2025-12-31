@@ -58,8 +58,6 @@ This project emphasizes:
 - Help seeker management
 - Relational database with integrity constraints
 
----
-
 ## 🗄️ Database Design
 
 **Database Name:** `VolunteerCoordinatorDB`
@@ -74,16 +72,11 @@ This project emphasizes:
 
 The database follows **relational normalization** principles and uses **primary keys and foreign keys** to ensure data consistency and integrity.
 
----
-
 ## 📁 Database Schema
 
 📂 The complete SQL schema is available at:
 
 Database/VolunteerCoordinatorDB.sql
-
-yaml
-Copy code
 
 ### 🧪 How to Create the Database
 
@@ -97,16 +90,42 @@ Copy code
 
 Volunteer-Coordinator-System/
 │
-├── Volunteer_Coordinator_System/ # C# Source Code
-├── Database/
-│ └── VolunteerCoordinatorDB.sql # Database Script
-├── Screenshots/ # UI & Database Screenshots
-└── README.md
+├── Volunteer_Coordinator_System/          # C# WinForms Application
+│   ├── Properties/                        # Project properties
+│   ├── References/                        # .NET references
+│   ├── Resources/                         # App resources
+│   │
+│   ├── AdminView.cs                       # Admin dashboard
+│   ├── DonationForm.cs                   # Donation management
+│   ├── DonorView.cs                      # Donor interface
+│   ├── Event.cs                           # Event model
+│   ├── EventManager.cs                   # Event manager logic
+│   ├── EventManageByAdmin.cs              # Admin event control
+│   ├── GeneralUser.cs                    # General user model
+│   ├── HelpSeeking.cs                    # Help seeker handling
+│   ├── LoginForm.cs                      # User login form
+│   ├── MainForm.cs                       # Main application UI
+│   ├── MyActivityForm.cs                 # User activity tracking
+│   ├── SignUp.cs                         # User registration
+│   ├── User.cs                           # User model
+│   ├── VolunteerView.cs                  # Volunteer dashboard
+│   ├── VolunteerAndHelpSeekerManageByAdmin.cs
+│   │                                      # Admin control panel
+│   ├── DbHelper.cs                       # Database connection & queries
+│   ├── App.config                        # Connection string & config
+│   └── Program.cs                        # Application entry point
+│
+├── Database/                              # Database scripts
+│   └── VolunteerCoordinatorDB.sql        # SQL Server schema
+│
+├── Screenshots/                           # UI & DB screenshots
+│
+├── README.md                              # Project documentation
+└── .gitignore                             # Git ignore rules
 
-yaml
-Copy code
 
----
+
+
 
 ## ▶️ How to Run the Project
 
