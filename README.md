@@ -84,47 +84,6 @@ Database/VolunteerCoordinatorDB.sql
 2. Open `VolunteerCoordinatorDB.sql`
 3. Execute the script (Press **F5**)
 
----
-
-## 📂 Project Structure
-
-Volunteer-Coordinator-System/
-│
-├── Volunteer_Coordinator_System/          # C# WinForms Application
-│   ├── Properties/                        # Project properties
-│   ├── References/                        # .NET references
-│   ├── Resources/                         # App resources
-│   │
-│   ├── AdminView.cs                       # Admin dashboard
-│   ├── DonationForm.cs                   # Donation management
-│   ├── DonorView.cs                      # Donor interface
-│   ├── Event.cs                           # Event model
-│   ├── EventManager.cs                   # Event manager logic
-│   ├── EventManageByAdmin.cs              # Admin event control
-│   ├── GeneralUser.cs                    # General user model
-│   ├── HelpSeeking.cs                    # Help seeker handling
-│   ├── LoginForm.cs                      # User login form
-│   ├── MainForm.cs                       # Main application UI
-│   ├── MyActivityForm.cs                 # User activity tracking
-│   ├── SignUp.cs                         # User registration
-│   ├── User.cs                           # User model
-│   ├── VolunteerView.cs                  # Volunteer dashboard
-│   ├── VolunteerAndHelpSeekerManageByAdmin.cs
-│   │                                      # Admin control panel
-│   ├── DbHelper.cs                       # Database connection & queries
-│   ├── App.config                        # Connection string & config
-│   └── Program.cs                        # Application entry point
-│
-├── Database/                              # Database scripts
-│   └── VolunteerCoordinatorDB.sql        # SQL Server schema
-│
-├── Screenshots/                           # UI & DB screenshots
-│
-├── README.md                              # Project documentation
-└── .gitignore                             # Git ignore rules
-
-
-
 
 
 ## ▶️ How to Run the Project
