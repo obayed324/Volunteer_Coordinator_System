@@ -1,148 +1,153 @@
-Volunteer Coordinator System
-📌 Project Overview
+# 🧩 Volunteer Coordinator System
 
-The Volunteer Coordinator System is a desktop-based application developed using C# (.NET Framework 4.8) and Microsoft SQL Server.
-The system is designed to efficiently manage volunteers, events, help seekers, and donations on a single platform, mainly for social welfare and relief activities.
+## 📌 Project Overview
 
-This project focuses on proper database design, object-oriented programming, and real-world workflow automation.
+The **Volunteer Coordinator System** is a desktop-based application developed using **C# (.NET Framework 4.8)** and **Microsoft SQL Server**.  
+The system is designed to efficiently manage **volunteers, events, help seekers, and donations** on a single platform, primarily for **social welfare and relief activities**.
 
-🎯 Objectives
+This project emphasizes:
+- Proper relational database design  
+- Object-Oriented Programming (OOP) principles  
+- Real-world workflow automation for volunteer management  
 
-Organize volunteer-based social and relief events
+---
 
-Maintain structured records of volunteers and users
+## 🎯 Objectives
 
-Track donations and help seekers for each event
+- Organize volunteer-based social and relief events  
+- Maintain structured records of volunteers and system users  
+- Track donations and help seekers for each event  
+- Improve coordination, transparency, and accountability  
 
-Improve coordination and transparency in volunteer management
+---
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
-Programming Language: C#
+| Category | Technology |
+|--------|------------|
+| Programming Language | C# |
+| Framework | .NET Framework 4.8 |
+| Application Type | Desktop Application (Windows Forms) |
+| Database | Microsoft SQL Server |
+| IDE | Visual Studio |
+| Version Control | Git & GitHub |
 
-Framework: .NET Framework 4.8
+---
 
-Application Type: Desktop Application (Windows Forms)
+## 👥 User Roles
 
-Database: Microsoft SQL Server
+### 🔹 Admin
+- Manage users and system configuration  
 
-IDE: Visual Studio
+### 🔹 Event Manager
+- Create and manage events  
+- Assign volunteers  
+- Monitor donations and help seekers  
 
-Version Control: Git & GitHub
+### 🔹 Volunteer
+- Participate in assigned events  
 
-👥 User Roles
+---
 
-Admin
+## ⚙️ Core Features
 
-Manage users and system configuration
+- User registration and **role-based access control**
+- Event creation and management
+- Volunteer assignment to events
+- Donation tracking per event
+- Help seeker management
+- Relational database with integrity constraints
 
-Event Manager
+---
 
-Create and manage events
+## 🗄️ Database Design
 
-Assign volunteers
+**Database Name:** `VolunteerCoordinatorDB`
 
-Monitor donations and help seekers
+### Tables
+- `UserType`
+- `User`
+- `Event`
+- `EventVolunteer`
+- `EventDonation`
+- `EventHelpSeeker`
 
-Volunteer
+The database follows **relational normalization** principles and uses **primary keys and foreign keys** to ensure data consistency and integrity.
 
-Participate in assigned events
+---
 
-⚙️ Core Features
+## 📁 Database Schema
 
-User registration and role-based access
-
-Event creation and management
-
-Volunteer assignment to events
-
-Donation tracking per event
-
-Help seeker management
-
-Relational database with proper integrity constraints
-
-🗄️ Database Design
-
-Database Name: VolunteerCoordinatorDB
-
-Tables:
-
-UserType
-
-User
-
-Event
-
-EventVolunteer
-
-EventDonation
-
-EventHelpSeeker
-
-The database is designed using relational normalization, with primary keys and foreign keys to ensure data consistency.
-
-📁 The complete SQL schema is provided in:
+📂 The complete SQL schema is available at:
 
 Database/VolunteerCoordinatorDB.sql
 
-How to create the database:
+yaml
+Copy code
 
-Open SQL Server Management Studio (SSMS)
+### 🧪 How to Create the Database
 
-Open the file VolunteerCoordinatorDB.sql
+1. Open **SQL Server Management Studio (SSMS)**
+2. Open `VolunteerCoordinatorDB.sql`
+3. Execute the script (Press **F5**)
 
-Execute the script (Press F5)
+---
 
-📂 Project Structure
+## 📂 Project Structure
+
 Volunteer-Coordinator-System/
 │
-├── Volunteer_Coordinator_System/   # C# Source Code
+├── Volunteer_Coordinator_System/ # C# Source Code
 ├── Database/
-│   └── VolunteerCoordinatorDB.sql  # Database Script
-├── Screenshots/                    # UI & DB Screenshots
+│ └── VolunteerCoordinatorDB.sql # Database Script
+├── Screenshots/ # UI & Database Screenshots
 └── README.md
 
-▶️ How to Run the Project
+yaml
+Copy code
 
-Clone or download the repository
+---
 
-Open the project in Visual Studio
+## ▶️ How to Run the Project
 
-Restore database using the provided SQL script
+1. Clone or download the repository  
+2. Open the project in **Visual Studio**  
+3. Restore the database using the provided SQL script  
+4. Update the **connection string** if required  
+5. Build and run the project  
 
-Update the connection string if required
+---
 
-Build and run the project
+## 🔐 Security & Best Practices
 
-🔐 Security & Best Practices
+- Role-based access control
+- Structured database relationships
+- Separation of application logic and database schema
+- Reusable and maintainable code structure
 
-Role-based access control
+---
 
-Structured database relationships
+## 🚀 Future Improvements
 
-Separation of application logic and database schema
+- Web-based version using **ASP.NET**
+- REST API integration
+- Encrypted authentication
+- Reporting and analytics dashboard
+- Cloud database deployment
 
-Reusable and maintainable code structure
+---
 
-🚀 Future Improvements
+## 👨‍💻 Author
 
-Web-based version using ASP.NET
-
-REST API integration
-
-Authentication encryption
-
-Reporting and analytics dashboard
-
-Cloud database deployment
-
-👨‍💻 Author
-
-Obayed Sarker
-Student, Computer Science & Engineering
+**Obayed Sarker**  
+Student, Computer Science & Engineering  
 American International University – Bangladesh (AIUB)
 
-📄 License
+- 🌐 Portfolio: https://obayed-eportfolio.netlify.app/
+- 💻 GitHub: https://github.com/obayed324
 
-This project is developed for academic and learning purposes.
+---
+
+## 📄 License
+
+This project is developed for **academic and learning purposes**.
